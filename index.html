@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FlexBox</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #2f364f;
+        color: white;
+        text-align: center;
+    }
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+    }
+    .buttons button {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .content img {
+        width: 300px;
+        border-radius: 8px;
+    }
+    .center-title {
+        background-color: black;
+        padding: 15px 30px;
+        border-radius: 20px;
+        font-weight: bold;
+        margin: 20px auto;
+        display: inline-block;
+    }
+    .text-blocks {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .text-block {
+        background-color: red;
+        padding: 10px;
+        border-radius: 12px;
+        width: 300px;
+    }
+    .text-block p {
+        background-color: lime;
+        color: black;
+        padding: 10px;
+        border-radius: 6px;
+        margin: 0;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+
+<div class="buttons">
+    <button>Display: Flex</button>
+    <button>Display: none</button>
+    <button>Display: block</button>
+    <button>Display: inline</button>
+</div>
+
+<div class="content">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.Sikmk255jmovc2VQlcQBcwHaEl?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Flexbox Logo">
+    <img src="https://i.ytimg.com/vi/k32voqQhODc/maxresdefault.jpg" alt="Flexbox YouTube">
+</div>
+
+<div class="center-title">FlexBox</div>
+
+<div class="text-blocks">
+    <div class="text-block">
+        <p>CSS Flexbox — это механизм для создания сложных гибких макетов с использованием свойств контейнера и элементов.
+            .
+            .
+        </p>
+    </div>
+    <div class="text-block">
+        <p>Flexbox, veb-dizayn jarayonini sodda qiladi va elementlarni dinamik tarzda joylashuvini boshqarishga yordam beradi. Bu esa veb sayt yoki ilovalarning yaratilishi va ularga moslashtirilishi jarayonini yengillashtiradi.</p>
+    </div>
+</div>
+
+</body>
+</html>
